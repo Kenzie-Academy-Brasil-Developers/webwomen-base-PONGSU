@@ -1,1 +1,12 @@
-/* Desenvolva sua estilização aqui... */
+@media(min-width: 1400px) {
+    main {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #vagas-selecionadas {
+        margin-top: 130px;
+        width: 40vw;
+    }
+
+}

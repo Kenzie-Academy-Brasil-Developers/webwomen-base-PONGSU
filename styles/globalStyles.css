@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  list-style: none;
 }
 
 img {
@@ -14,12 +15,12 @@ img {
 :root {
   --color-brand-1: #6741D9;
   --color-brand-2: #5F3DC4;
-  --color-grey-1:  #212529;
-  --color-grey-2:  #343a40;
-  --color-grey-3:  #dee2e6;
-  --color-grey-4:  #e9ecef;
-  --color-grey-5:  #f1f3f5;
-  --color-grey-6:  #ffffff;
+  --color-grey-1: #212529;
+  --color-grey-2: #343a40;
+  --color-grey-3: #dee2e6;
+  --color-grey-4: #e9ecef;
+  --color-grey-5: #f1f3f5;
+  --color-grey-6: #ffffff;
   --radius-default: 0.5rem;
 
   --title-1: 3rem;
@@ -28,28 +29,33 @@ img {
   --title-4: 1.375rem;
   --title-5: 1.125rem;
 
-  --text-1:  1.125rem;
-  --text-2:  1rem;
-  --text-3:  0.875rem;
+  --text-1: 1.125rem;
+  --text-2: 1rem;
+  --text-3: 0.875rem;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
 
-.container {
-  width: 76rem;
-  max-width: 100%;
-  margin: 0 auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+main {
+  background-color: var(--color-grey-5);
+  display: flex;
+  flex-direction: column
 }
 
-@media(max-width: 991px){
+.container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10vw;
+}
+
+@media(max-width: 991px) {
   :root {
     --title-1: calc(3rem / 1.2);
     --title-2: calc(2.5rem / 1.2);
     --title-3: calc(2rem / 1.2);
-    --text-1:  calc(1.125rem / 1.2);
+    --text-1: calc(1.125rem / 1.2);
   }
 }

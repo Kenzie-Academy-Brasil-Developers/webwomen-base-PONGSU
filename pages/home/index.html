@@ -1,23 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
-    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-    <title>Webwomen</title>
-    <meta
-      name="description"
-      content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../styles/globalStyles.css">
+  <link rel="stylesheet" href="../../styles/header.css">
+  <link rel="stylesheet" href="../../styles/vagas.css">
+  <link rel="stylesheet" href="../../styles/vagas-selecionadas.css">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
+  <title>Webwomen</title>
+  <meta name="description" content="Está procurando oportunidades de estágio, emprego ou bolsas de estudo? 
       Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil 
-      e ao redor do mundo?"
-    />
+      e ao redor do mundo?" />
 </head>
+
 <body>
-    <main></main>
-    <script src="jobsData.js"></script>
-    <script src="index.js"></script>
+  <div id="header-container">
+    <header class="container">
+      <span id="header-textos">
+        <h2>Webwomen</h2>
+        <h1>Lugar de mulher é onde ela quiser!</h1>
+        <div>
+          <p>Está procurando oportunidades de estágio, emprego ou bolsas de estudo?</p>
+          <p>Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?</p>
+        </div>
+        <h5>Confere aqui embaixo o que temos pra você!</h5>
+        <a href="#vagas"><button>Ir para seção das vagas</button></a>
+      </span>
+    </header>
+  </div>
+  <main class="container">
+    <section id="vagas">
+      <h3>Vagas</h3>
+      <ul id="lista-vagas">
+      </ul>
+    </section>
+    <asside id="vagas-selecionadas">
+      <h3>Vagas Selecionadas</h3>
+      <ul id="lista-vagas-selecionadas">
+      </ul>
+    </asside>
+  </main>
+  <script src="jobsData.js"></script>
+  <script src="index.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,67 @@
+#vagas-selecionadas {
+  max-width: 100%;
+  background-color: var(--color-grey-6);
+  border-radius: 10px 10px 0 0;
+  padding-top: 38px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#vagas-selecionadas h3 {
+  padding: 0 38px;
+}
+
+#lista-vagas-selecionadas {
+  width: 100%;
+
+}
+
+.vaga-selecionada {
+  padding: 20px 38px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-bottom: 3px solid var(--color-grey-5);
+}
+
+.parte-superior {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.parte-superior button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 37px;
+  width: 37px;
+  min-width: 37px;
+  margin-left: 20px;
+  border: 0;
+  border-radius: 5px;
+  font-size: var(--text-1);
+}
+
+.parte-superior button:hover {
+  outline: 2px solid var(--color-grey-2);
+  background-color: var(--color-grey-3);
+  cursor: pointer;
+}
+
+.parte-inferior {
+  font-size: var(--title-6);
+  color: var(--color-grey-2);
+  font-weight: 400;
+  display: flex;
+  gap: 50px;
+}
+
+.msg-sem-candidatura {
+  font-size: var(--text-1);
+  font-weight: 400;
+  padding-bottom: 50px;
+}

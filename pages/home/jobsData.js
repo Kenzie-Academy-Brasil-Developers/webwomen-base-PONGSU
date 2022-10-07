@@ -1,4 +1,4 @@
-const jobsData = [
+let vagas = [
   {
     id: 0,
     title: "Pessoa desenvolvedora front-end - React",
@@ -27,3 +27,6 @@ const jobsData = [
     modalities: ["Home Office", "Presencial"],
   },
 ];
+
+
+// vagasSelecionadas.sort((a,b) => {return a.id*100-b.id*100})
